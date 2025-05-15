@@ -13,10 +13,10 @@ app = Flask(__name__)
 
 # Expected feature columns in correct order (must match training)
 EXPECTED_COLUMNS = [
-    'Age', 'Gender', 'Total_Bilirubin', 'Direct_Bilirubin',
-    'Alkaline_Phosphotase', 'Alamine_Aminotransferase',
-    'Aspartate_Aminotransferase', 'Total_Protiens',
-    'Albumin', 'Albumin_and_Globulin_Ratio'
+   'Age', 'Gender', 'Total_Bilirubin', 'Direct_Bilirubin',
+      'Alkaline_Phosphatase', 'Alanine_Aminotransferase',
+      'Aspartate_Aminotransferase', 'Total_Protiens',
+      'Albumin'
 ]
 
 @app.route('/')
