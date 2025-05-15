@@ -15,7 +15,7 @@ app = Flask(__name__)
 EXPECTED_COLUMNS = [
    'Age', 'Gender', 'Total_Bilirubin', 'Direct_Bilirubin',
       'Alkaline_Phosphatase', 'Alanine_Aminotransferase',
-      'Aspartate_Aminotransferase', 'Total_Protiens',
+      'Aspartate_Aminotransferase', 'Total_Proteins',
       'Albumin'
 ]
 
